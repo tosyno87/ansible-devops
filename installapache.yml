@@ -13,5 +13,5 @@
         enabled: True
     - name: Deploy static website
       copy:
-        src: ansible-devops/index.html
+        src: /index.html
         dest: /var/wwww/html/
